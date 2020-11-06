@@ -6,7 +6,7 @@ const borderCode = document.getElementById("cssCode");
 const prototypeBorder = document.getElementById("prototype");
 
 function generateCode() {
-  borderCode.value = `border-radius: ${topLeftValue.value}px ${topRightValue.value}px ${botLeftValue.value}px ${botRightValue.value}px;`;
+  borderCode.value = `border-radius: ${topLeftValue.value}% ${topRightValue.value}% ${botLeftValue.value}% ${botRightValue.value}%;`;
 }
 
 function replaceBorder() {
